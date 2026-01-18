@@ -14,6 +14,12 @@ CounterPro is a simple web app that:
 - Includes an **About Me** page
 - Provides a link to the **GitHub repository**
 
+<img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/2e2c8c3c-b3ba-469a-a8ae-fa080d1b5e77" />
+
+<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/f09612a8-fa03-44aa-b431-22429bdc307c" />
+
+
+
 ---
 
 ## 🧩 Features
