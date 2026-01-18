@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CounterPro</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #0b1020;
+      color: #f3f6ff;
+      font-family: Arial, sans-serif;
+    }
+
+    .counter-card {
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 60px 30px;
+      text-align: center;
+    }
+
+    .counter-number {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 25px 0;
+      letter-spacing: 2px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+
+    .links a {
+      color: #38bdf8;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .links a:hover {
+      color: #7dd3fc;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container py-5">
+    <div class="counter-card mx-auto" style="max-width: 600px;">
+      <h1 class="mb-3">Welcome To CounterPro</h1>
+      <div class="counter-number">{{ visit_count }}</div>
+
+      <div class="links">
+        <a href="https://github.com/Abdi-Shakur457/docker-learning-" target="_blank">GitHub</a>
+        <a href="/about">About Me</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
